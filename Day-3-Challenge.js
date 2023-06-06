@@ -93,3 +93,12 @@ const width = prompt("Enter Number Width");
 const areaReg = 2 * (Number(length) + Number(width));
 
 console.log("Area Reg : " + areaReg);
+
+//Challenge--4
+
+const radius = prompt("Enter Number Radius");
+const PI = 3.14;
+
+const areaCircle = PI * Number(radius) ** 2;
+
+console.log("Area Circle : " + areaCircle);
