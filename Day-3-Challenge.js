@@ -102,3 +102,10 @@ const PI = 3.14;
 const areaCircle = PI * Number(radius) ** 2;
 
 console.log("Area Circle : " + areaCircle);
+
+//Challenge--5
+
+const enterNum1 = prompt("Enter Number X");
+const formol = `Y = "  ${Number(enterNum1) * 2 - 2}`;
+
+console.log(formol);
