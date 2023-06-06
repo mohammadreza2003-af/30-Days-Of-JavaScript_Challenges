@@ -11,3 +11,7 @@ const information = {
 };
 
 console.log(typeof information.firstName);
+
+// Challenge--2
+
+console.log(10 === "10");
