@@ -81,6 +81,6 @@ const Num1 = prompt("Enter Number 1");
 const Num2 = prompt("Enter Number 2");
 const Num3 = prompt("Enter Number 3");
 
-const Sum = Num1 + Num2 + Num3;
+const Sum = Number(Num1) + Number(Num2) + Number(Num3);
 
 console.log("Sum : " + Sum);
