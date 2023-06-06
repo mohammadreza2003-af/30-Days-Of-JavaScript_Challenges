@@ -53,3 +53,11 @@ console.log(4 === "4");
 console.log(4 > 3 && 10 < 12);
 console.log(4 > 3 && 10 > 12);
 console.log(4 > 3 || 10 < 12);
+
+//Challenge--7
+
+const nowYear = new Date().getFullYear();
+const nowMonth = new Date().getMonth() + 1;
+const nowDate = new Date().getDate();
+const nowDay = new Date().getDay() + 1;
+console.log(nowYear, nowMonth, nowDate, nowDay);
