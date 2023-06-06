@@ -68,22 +68,22 @@ console.log(nowYear, nowMonth, nowDate, nowDay);
 
 //Challenge--1
 
-// const height = prompt("Enter Number Height");
-// const base = prompt("Enter Number Base");
+const height = prompt("Enter Number Height");
+const base = prompt("Enter Number Base");
 
-// const area = 0.5 * height * base;
+const area = 0.5 * height * base;
 
-// console.log("Area : " + area);
+console.log("Area : " + area);
 
 //Challenge--2
 
-// const Num1 = prompt("Enter Number 1");
-// const Num2 = prompt("Enter Number 2");
-// const Num3 = prompt("Enter Number 3");
+const Num1 = prompt("Enter Number 1");
+const Num2 = prompt("Enter Number 2");
+const Num3 = prompt("Enter Number 3");
 
-// const Sum = Number(Num1) + Number(Num2) + Number(Num3);
+const Sum = Number(Num1) + Number(Num2) + Number(Num3);
 
-// console.log("Sum : " + Sum);
+console.log("Sum : " + Sum);
 
 //Challenge--3
 
