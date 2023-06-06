@@ -33,3 +33,17 @@ console.log(typeof Nan === typeof number);
 console.log(10 > 11);
 console.log(!(6 > 5) && undefined !== 10);
 console.log("Alireza".length === "Mohammadreza".length);
+
+//Challenge--5
+
+console.log(4 > 3);
+console.log(4 >= 3);
+console.log(4 < 3);
+console.log(4 <= 3);
+console.log(4 == 4);
+console.log(4 === 4);
+console.log(4 != 4);
+console.log(4 !== 4);
+console.log(4 != "4");
+console.log(4 == "4");
+console.log(4 === "4");
