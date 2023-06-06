@@ -1,5 +1,7 @@
 "use strict";
 
+//Exercises: Level 1
+
 // Challenge--1
 const information = {
   ali: [["reza", "ali"], "reza"],
@@ -61,3 +63,14 @@ const nowMonth = new Date().getMonth() + 1;
 const nowDate = new Date().getDate();
 const nowDay = new Date().getDay() + 1;
 console.log(nowYear, nowMonth, nowDate, nowDay);
+
+//Exercises: Level 2
+
+//Challenge--1
+
+const height = prompt("Enter Number Height");
+const base = prompt("Enter Number Base");
+
+const area = 0.5 * height * base;
+
+console.log("Area : " + area);
