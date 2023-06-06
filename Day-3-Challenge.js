@@ -47,3 +47,9 @@ console.log(4 !== 4);
 console.log(4 != "4");
 console.log(4 == "4");
 console.log(4 === "4");
+
+//Challenge--6
+
+console.log(4 > 3 && 10 < 12);
+console.log(4 > 3 && 10 > 12);
+console.log(4 > 3 || 10 < 12);
