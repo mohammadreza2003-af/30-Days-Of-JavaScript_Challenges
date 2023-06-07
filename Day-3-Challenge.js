@@ -181,6 +181,19 @@ birthYear >= 18
   : console.log("User To Wait A Certain Amount Of Years");
 
 //Challenge--11
+
 const enterYears = Number(prompt("Please Enter Year :"));
 const YearConst = (100 - enterYears) * 12 * 30 * 24 * 60 * 3600;
 console.log("You Live : " + YearConst + " Second");
+
+//Challenge--12
+
+const dateHuman = new Date();
+
+const humYear = dateHuman.getFullYear();
+const humMonth = dateHuman.getMonth() + 1;
+const humDay = dateHuman.getDate();
+const humHours = dateHuman.getHours();
+const humMinute = dateHuman.getMinutes();
+
+console.log(`${humYear}-${humMonth}-${humDay}-${humHours}-${humMinute}`);
