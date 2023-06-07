@@ -159,3 +159,15 @@ for (let i = 1; i <= 6; i++) {
 }
 
 console.log("You work this much per week :" + rateMon + "$");
+
+//Challenge--9
+
+const names = ["Mohammad Reza", "Jami", "Ali"];
+
+if (names[1].length <= 7) {
+  console.log(
+    `Your first name, ${names[0]} is longer than your family name, ${names[1]}`
+  );
+} else {
+  `Your first name, ${names[0]} is Short than your family name, ${names[1]}`;
+}
