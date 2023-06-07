@@ -171,3 +171,11 @@ if (names[1].length <= 7) {
 } else {
   `Your first name, ${names[0]} is Short than your family name, ${names[1]}`;
 }
+
+//Challenge--10
+
+const birthYear = Number(prompt("Please Enter Birth Year : "));
+
+birthYear >= 18
+  ? console.log("Allow The User To Drive")
+  : console.log("User To Wait A Certain Amount Of Years");
