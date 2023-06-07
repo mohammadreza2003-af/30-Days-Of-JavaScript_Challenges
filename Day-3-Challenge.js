@@ -121,3 +121,27 @@ const x2 = arrNum[1];
 
 const formalH = (y2 - y1) * (x2 - x1);
 console.log(formalH);
+
+//Challenge--7
+
+function calculateY(x) {
+  return x * x + 6 * x + 9;
+}
+
+function findXValueForYZero() {
+  var x = -100; // Starting with a low x value
+  var y = calculateY(x);
+
+  while (y !== 0) {
+    x++;
+    y = calculateY(x);
+    if (x > 100) {
+      console.log("No x value found for y = 0 in the given range.");
+      return;
+    }
+  }
+
+  console.log("x value when y = 0:", x);
+}
+
+findXValueForYZero();
