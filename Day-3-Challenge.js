@@ -109,3 +109,15 @@ const enterNum1 = prompt("Enter Number X");
 const formol = `Y = "  ${Number(enterNum1) * 2 - 2}`;
 
 console.log(formol);
+
+//Challenge--6
+
+const arrNum = [2, 6, 10];
+
+const y1 = arrNum[0];
+const y2 = arrNum[2];
+const x1 = arrNum[0];
+const x2 = arrNum[1];
+
+const formalH = (y2 - y1) * (x2 - x1);
+console.log(formalH);
