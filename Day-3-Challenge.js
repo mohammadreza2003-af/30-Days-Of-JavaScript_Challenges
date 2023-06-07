@@ -179,3 +179,8 @@ const birthYear = Number(prompt("Please Enter Birth Year : "));
 birthYear >= 18
   ? console.log("Allow The User To Drive")
   : console.log("User To Wait A Certain Amount Of Years");
+
+//Challenge--11
+const enterYears = Number(prompt("Please Enter Year :"));
+const YearConst = (100 - enterYears) * 12 * 30 * 24 * 60 * 3600;
+console.log("You Live : " + YearConst + " Second");
