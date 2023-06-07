@@ -145,3 +145,17 @@ function findXValueForYZero() {
 }
 
 findXValueForYZero();
+
+//Challenge--8
+
+const inputHour = Number(prompt("Please Enter Hours Between 0 To 24"));
+const inputRateMon = Number(prompt("How Many Take Money?"));
+
+let rateMon = 0;
+for (let i = 1; i <= 6; i++) {
+  const calculateRate = inputHour * inputRateMon;
+
+  rateMon += calculateRate;
+}
+
+console.log("You work this much per week :" + rateMon + "$");
