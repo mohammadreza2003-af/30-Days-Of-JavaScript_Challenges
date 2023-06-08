@@ -25,3 +25,13 @@ inputUser1 > inputUser2
   : console.log(
       `User 2 (${inputUser2})Years is Biger User 1 (${inputUser1})Years`
     );
+
+//challenge--3
+
+const num1 = Number(prompt("Please Enter Number"));
+
+if (num1 % 2 === 0) {
+  console.log(`${num1} Number is Even`);
+} else {
+  console.log(`${num1} Number is Not Even`);
+}
