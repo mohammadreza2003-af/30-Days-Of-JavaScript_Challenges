@@ -36,7 +36,9 @@ if (num1 % 2 === 0) {
   console.log(`${num1} Number is Not Even`);
 }
 
-//challenge--4
+//Exercises: Level 2
+
+//challenge--1
 
 const enterGrades = Number(prompt("Please Enter Your Score"));
 
