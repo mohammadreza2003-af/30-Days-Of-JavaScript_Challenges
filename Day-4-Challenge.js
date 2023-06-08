@@ -42,7 +42,7 @@ if (num1 % 2 === 0) {
 
 const enterGrades = Number(prompt("Please Enter Your Score"));
 
-switch (enterGrades <= 100 && enterGrades >= 0) {
+switch (true) {
   case enterGrades >= 80 && enterGrades <= 100:
     console.log("Grade : A");
     break;
