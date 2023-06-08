@@ -55,3 +55,44 @@ switch (true) {
   default:
     console.log("You Failed");
 }
+
+//challenge--2
+
+const enterSeason = prompt("Please Enter Season");
+
+switch (enterSeason) {
+  case "September":
+  case "October":
+  case "November":
+    console.log("The Season is Autumn.");
+    break;
+  case "December":
+  case "January ":
+  case "February":
+    console.log("The Season is Winter.");
+    break;
+  case "March":
+  case "April ":
+  case "May":
+    console.log("The Season is Spring.");
+    break;
+  case "June":
+  case "July":
+  case "August":
+    console.log("The Season is Summer.");
+    break;
+}
+
+//challenge--3
+
+const enterDay = prompt("What is the day  today?");
+
+switch (enterDay) {
+  case "Saturday":
+  case "Sunday":
+    console.log("Today is a holiday");
+    break;
+
+  default:
+    console.log("Today is a working day");
+}
