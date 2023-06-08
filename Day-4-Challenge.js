@@ -35,3 +35,21 @@ if (num1 % 2 === 0) {
 } else {
   console.log(`${num1} Number is Not Even`);
 }
+
+//challenge--4
+
+const enterGrades = Number(prompt("Please Enter Your Score"));
+
+switch (enterGrades <= 100 && enterGrades >= 0) {
+  case enterGrades >= 80 && enterGrades <= 100:
+    console.log("Grade : A");
+    break;
+  case enterGrades >= 60 && enterGrades <= 79:
+    console.log("Grade : B");
+    break;
+  case enterGrades >= 55 && enterGrades <= 59:
+    console.log("Grade : C");
+    break;
+  default:
+    console.log("You Failed");
+}
