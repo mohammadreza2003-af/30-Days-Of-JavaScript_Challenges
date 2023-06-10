@@ -80,8 +80,21 @@ itCompanies.includes("Meta") ? console.log("Yes") : console.log("NO");
 
 //Challenge--14
 
-const inC = itCompanies.includes("o");
+const filtItc = [];
+for (let o = 0; o < itCompanies.length; o++) {
+  const companyS = itCompanies[o];
+  let oCountS = 0;
+  for (let g = 0; g < companyS.length; g++) {
+    if (companyS[g].toLowerCase() === "o") {
+      oCountS++;
+      if (oCountS > 1) {
+        break;
+      }
+    }
+  }
+  if (oCountS <= 1) {
+    filtItc.push(companyS);
+  }
+}
 
-console.log(ss);
-
-console.log(inC);
+console.log(filtItc);
