@@ -22,3 +22,10 @@ console.log(arr1[0]);
 const mid = arr1.length / 2;
 console.log(Math.ceil(mid));
 console.log(arr1[arr1.length - 1]);
+
+//Challenge--5
+let mixedDataTypes = Array(5);
+mixedDataTypes = [0, "A", "B", true, undefined];
+
+console.log(mixedDataTypes.length);
+console.log(mixedDataTypes);
