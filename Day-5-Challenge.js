@@ -56,3 +56,10 @@ const midCom = (itCompanies.length - 1) / 2;
 const miid = Math.ceil(midCom);
 console.log(itCompanies[miid]);
 console.log(itCompanies[itCompanies.length - 1]);
+
+//Challenge--10
+
+for (let i = 0; i < itCompanies.length; i++) {
+  console.log(itCompanies[i]);
+  console.log(" ");
+}
