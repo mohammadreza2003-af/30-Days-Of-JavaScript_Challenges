@@ -67,6 +67,9 @@ for (let i = 0; i < itCompanies.length; i++) {
 //Challenge--11
 
 for (let k = 0; k < itCompanies.length; k++) {
-  console.log(itCompanies[k].toUpperCase());
-  itCompanies[k].toUpperCase;
+  // itCompanies[k].toUpperCase;
+  // console.log(itCompanies[k].split(" "));
+  console.log(itCompanies[k]);
 }
+
+//Challenge--12
