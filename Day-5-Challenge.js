@@ -48,3 +48,11 @@ console.log(itCompanies);
 //Challenge--8
 
 console.log(itCompanies[0]);
+
+//Challenge--9
+
+console.log(itCompanies[0]);
+const midCom = (itCompanies.length - 1) / 2;
+const miid = Math.ceil(midCom);
+console.log(itCompanies[miid]);
+console.log(itCompanies[itCompanies.length - 1]);
