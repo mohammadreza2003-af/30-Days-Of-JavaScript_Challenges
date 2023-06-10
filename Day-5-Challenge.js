@@ -104,3 +104,9 @@ console.log(filtItc);
 const arrNum = [2, 3, 5, 6, 9, 1, 4];
 
 console.log(arrNum.sort());
+
+//Challenge--16
+
+console.log(arrNum.reverse());
+
+console.log(itCompanies.slice(4, itCompanies.length));
