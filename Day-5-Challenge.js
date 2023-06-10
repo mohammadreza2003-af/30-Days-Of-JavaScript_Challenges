@@ -112,3 +112,9 @@ console.log(arrNum.reverse());
 //Challenge--17
 
 console.log(itCompanies.slice(4, itCompanies.length));
+
+//Challenge--18
+
+const midItcom = Math.floor(itCompanies.length - 1) / 2;
+
+console.log(itCompanies.slice(midItcom, 4));
