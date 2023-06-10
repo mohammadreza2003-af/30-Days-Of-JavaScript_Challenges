@@ -98,3 +98,9 @@ for (let o = 0; o < itCompanies.length; o++) {
 }
 
 console.log(filtItc);
+
+//Challenge--15
+
+const arrNum = [2, 3, 5, 6, 9, 1, 4];
+
+console.log(arrNum.sort());
