@@ -44,3 +44,7 @@ const itCompanies = [
 //Challenge--7
 
 console.log(itCompanies);
+
+//Challenge--8
+
+console.log(itCompanies[0]);
