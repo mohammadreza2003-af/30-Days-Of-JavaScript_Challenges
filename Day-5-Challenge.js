@@ -118,3 +118,7 @@ console.log(itCompanies.slice(4, itCompanies.length));
 const midItcom = Math.floor(itCompanies.length - 1) / 2;
 
 console.log(itCompanies.slice(midItcom, 4));
+
+//Challenge--19
+
+console.log(itCompanies.splice(1, itCompanies.length));
