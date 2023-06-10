@@ -72,12 +72,16 @@ for (let k = 0; k < itCompanies.length; k++) {
 
 //Challenge--12
 
-for (let k = 0; k < itCompanies.length; k++) {
-  // itCompanies[k].toUpperCase;
-  // console.log(itCompanies[k].split(" "));
-  console.log(itCompanies[k]);
-}
+const ss = itCompanies.join(" ");
 
 //Challenge--13
 
 itCompanies.includes("Meta") ? console.log("Yes") : console.log("NO");
+
+//Challenge--14
+
+const inC = itCompanies.includes("o");
+
+console.log(ss);
+
+console.log(inC);
