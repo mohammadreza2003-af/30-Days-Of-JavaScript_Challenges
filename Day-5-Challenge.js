@@ -122,3 +122,10 @@ console.log(itCompanies.slice(midItcom, 4));
 //Challenge--19
 
 console.log(itCompanies.splice(1, itCompanies.length));
+
+//Challenge--20
+
+console.log(midItcom);
+itCompanies.splice(midItcom, 5);
+
+console.log(itCompanies.splice());
