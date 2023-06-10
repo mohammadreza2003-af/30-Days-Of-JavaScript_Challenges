@@ -109,4 +109,6 @@ console.log(arrNum.sort());
 
 console.log(arrNum.reverse());
 
+//Challenge--17
+
 console.log(itCompanies.slice(4, itCompanies.length));
