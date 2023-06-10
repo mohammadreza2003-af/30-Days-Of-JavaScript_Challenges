@@ -29,3 +29,17 @@ mixedDataTypes = [0, "A", "B", true, undefined];
 
 console.log(mixedDataTypes.length);
 console.log(mixedDataTypes);
+
+//Challenge--6
+
+const itCompanies = [
+  "Facebook",
+  "Google",
+  "Microsoft",
+  "Apple",
+  "IBM",
+  "oracle",
+  "Amazon",
+];
+
+console.log(itCompanies);
