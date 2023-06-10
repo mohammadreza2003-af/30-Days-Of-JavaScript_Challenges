@@ -41,5 +41,6 @@ const itCompanies = [
   "oracle",
   "Amazon",
 ];
+//Challenge--7
 
 console.log(itCompanies);
