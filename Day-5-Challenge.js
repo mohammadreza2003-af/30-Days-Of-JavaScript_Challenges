@@ -11,3 +11,7 @@ const arr = Array();
 let arr1 = Array();
 arr1 = [0, 1, 2, 3, 4, 5];
 console.log(arr1);
+
+//Challenge--3
+
+console.log(arr1.length);
