@@ -77,3 +77,7 @@ for (let k = 0; k < itCompanies.length; k++) {
   // console.log(itCompanies[k].split(" "));
   console.log(itCompanies[k]);
 }
+
+//Challenge--13
+
+itCompanies.includes("Meta") ? console.log("Yes") : console.log("NO");
