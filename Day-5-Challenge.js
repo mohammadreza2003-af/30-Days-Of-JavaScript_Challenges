@@ -179,3 +179,12 @@ if (countries.includes("Ethiopia")) {
   countries.push("Ethiopia");
   console.log(countries);
 }
+
+//Challenge--5
+
+if (web_techs.includes("Sass")) {
+  console.log(web_techs);
+} else {
+  web_techs.push("Sass");
+  console.log(web_techs);
+}
