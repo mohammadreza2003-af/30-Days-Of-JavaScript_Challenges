@@ -133,7 +133,19 @@ console.log(itCompanies.splice());
 //Exercise: Level 2
 
 //Challenge--1
+
 import countries from "/countries.js";
 import web_techs from "/web_techs.js";
 console.log(countries);
 console.log(web_techs);
+
+//Challenge--2
+
+let text =
+  "I love teaching and empowering people. I teach HTML, CSS, JS, React, Python.";
+
+const remove = text.replace(/[^\w\s]/g, "");
+const words = remove.split(" ");
+// console.log(remove);
+console.log(words);
+console.log(words.length);
