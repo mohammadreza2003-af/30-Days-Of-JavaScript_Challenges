@@ -170,3 +170,12 @@ if (teaIndex === -1) {
   shoppingCart[teaIndex] = "Green Tea";
 }
 console.log(shoppingCart);
+
+//Challenge--4
+
+if (countries.includes("Ethiopia")) {
+  console.log(countries);
+} else {
+  countries.push("Ethiopia");
+  console.log(countries);
+}
