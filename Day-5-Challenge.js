@@ -217,3 +217,14 @@ console.log(findMax);
 const findMid = Math.floor(sortAges.length / 2);
 const showMid = sortAges[findMid - 1];
 console.log(`MidAge = ${showMid}`);
+
+//Section--3
+
+let sumAge = 0;
+
+for (let i = 0; i < ages.length; i++) {
+  sumAge += ages[i];
+}
+const divd = sumAge / ages.length;
+
+console.log(divd);
