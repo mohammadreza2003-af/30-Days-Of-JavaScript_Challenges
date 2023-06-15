@@ -195,3 +195,18 @@ const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
 const backEnd = ["Node", "Express", "MongoDB"];
 const fullstack = frontEnd.concat(backEnd);
 console.log(fullstack);
+
+//Challenge--6
+
+//Exercise: Level 3
+
+//Challenge--1
+
+//Section--1
+const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
+ages.sort();
+console.log(ages);
+const findMin = Math.min(...ages);
+console.log(findMin);
+const findMax = Math.max(...ages);
+console.log(findMax);
