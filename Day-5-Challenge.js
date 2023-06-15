@@ -188,3 +188,10 @@ if (web_techs.includes("Sass")) {
   web_techs.push("Sass");
   console.log(web_techs);
 }
+
+//Challenge--6
+
+const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+const backEnd = ["Node", "Express", "MongoDB"];
+const fullstack = frontEnd.concat(backEnd);
+console.log(fullstack);
