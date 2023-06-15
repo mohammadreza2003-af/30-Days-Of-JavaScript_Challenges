@@ -228,3 +228,13 @@ for (let i = 0; i < ages.length; i++) {
 const divd = sumAge / ages.length;
 
 console.log(divd);
+
+//Section--4
+
+const rangeAge = findMax - findMin;
+console.log(rangeAge);
+
+//Section--5
+console.log(countries);
+const findMidIndex = Math.round(countries.length / 2);
+console.log(countries[findMidIndex - 1]);
