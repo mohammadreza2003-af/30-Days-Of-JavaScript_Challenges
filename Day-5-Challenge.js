@@ -203,10 +203,17 @@ console.log(fullstack);
 //Challenge--1
 
 //Section--1
+
 const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24];
-ages.sort();
-console.log(ages);
+const sortAges = ages.sort();
+console.log(sortAges);
 const findMin = Math.min(...ages);
 console.log(findMin);
 const findMax = Math.max(...ages);
 console.log(findMax);
+
+//Section--2
+
+const findMid = Math.floor(sortAges.length / 2);
+const showMid = sortAges[findMid - 1];
+console.log(`MidAge = ${showMid}`);
