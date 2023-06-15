@@ -129,3 +129,11 @@ console.log(midItcom);
 itCompanies.splice(midItcom, 5);
 
 console.log(itCompanies.splice());
+
+//Exercise: Level 2
+
+//Challenge--1
+import countries from "/countries.js";
+import web_techs from "/web_techs.js";
+console.log(countries);
+console.log(web_techs);
