@@ -17,3 +17,19 @@ do {
   console.log(k);
   k++;
 } while (k <= 10);
+
+//Challenge--2
+
+for (let i = 10; i >= 0; i--) {
+  console.log(i);
+}
+let s = 10;
+while (s >= 0) {
+  console.log(s);
+  s--;
+}
+let e = 10;
+do {
+  console.log(e);
+  e--;
+} while (e >= 0);
