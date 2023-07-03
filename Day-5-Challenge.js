@@ -235,6 +235,21 @@ const rangeAge = findMax - findMin;
 console.log(rangeAge);
 
 //Section--5
+
 console.log(countries);
 const findMidIndex = Math.round(countries.length / 2);
 console.log(countries[findMidIndex - 1]);
+
+//Section--6
+
+if ((countries.length + 1) % 2 === 0) {
+  const secFirst = countries.splice(0, findMidIndex - 1);
+  const secSecond = countries.splice(findMidIndex);
+  console.log(secFirst);
+  console.log(secSecond);
+} else {
+  const secFirst = countries.splice(0, findMidIndex);
+  const secSecond = countries.splice(findMidIndex, countries.length);
+  console.log(secFirst);
+  console.log(secSecond);
+}
