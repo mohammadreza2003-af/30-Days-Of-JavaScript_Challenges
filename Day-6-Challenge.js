@@ -116,3 +116,18 @@ for (let h = 1; h <= 5; h++) {
   arrRandom.push(Math.trunc(Math.random() * 100) + 1);
 }
 console.log(arrRandom);
+
+//Challenge--14
+
+const randomNumbers = () => {
+  const numbers = [];
+  while (numbers.length < 5) {
+    const number = Math.floor(Math.random() * 100);
+    if (!numbers.includes(number)) {
+      numbers.push(number);
+    }
+  }
+  return numbers;
+};
+
+console.log(randomNumbers());
