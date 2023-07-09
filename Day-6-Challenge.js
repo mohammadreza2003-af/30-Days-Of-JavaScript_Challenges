@@ -101,3 +101,9 @@ for (let r = 0; r <= 100; r++) {
 }
 console.log(sumAllEven);
 console.log(sumAllOdd);
+
+//Challenge--12
+
+const arrEvenOdd = [sumAllEven, sumAllOdd];
+console.log(arrEvenOdd);
+
