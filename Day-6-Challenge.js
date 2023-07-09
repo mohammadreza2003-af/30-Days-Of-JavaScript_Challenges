@@ -148,10 +148,11 @@ console.log(arrE);
 
 const generateRandomId = function () {
   let result = "";
+  const arrCh = ["a", "b", "c", "d", "e", "x", "y", "z"];
   for (let i = 0; i <= 10; i++) {
     result += Math.trunc(Math.random() * 10) + 1;
+    result += arrCh[Math.trunc(Math.random() * arrCh.length - 1)];
   }
   return result;
 };
 console.log(generateRandomId());
-
