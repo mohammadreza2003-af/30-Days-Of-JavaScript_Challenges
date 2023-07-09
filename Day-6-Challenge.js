@@ -58,3 +58,8 @@ for (let a = 0; a <= 10; a++) {
 for (let u = 0; u <= 10; u++) {
   console.log(`${u}^2  = ${u ** 2}`);
 }
+
+//Challenge--7
+for (let q = 0; q <= 10; q++) {
+  console.log(`${q}^3  = ${q ** 3}`);
+}
