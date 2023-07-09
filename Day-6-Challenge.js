@@ -63,3 +63,11 @@ for (let u = 0; u <= 10; u++) {
 for (let q = 0; q <= 10; q++) {
   console.log(`${q}^3  = ${q ** 3}`);
 }
+
+//Challenge--8
+
+for (let r = 0; r <= 100; r++) {
+  if (r % 2 === 0) {
+    console.log(r);
+  }
+}
