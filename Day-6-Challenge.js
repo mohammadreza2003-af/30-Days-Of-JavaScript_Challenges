@@ -81,8 +81,23 @@ for (let x = 0; x <= 100; x++) {
 }
 
 //Challenge--10
+
 let sumAll = 0;
 for (let d = 0; d <= 100; d++) {
   sumAll += d;
 }
 console.log(sumAll);
+
+//Challenge--11
+
+let sumAllEven = 0;
+let sumAllOdd = 0;
+for (let r = 0; r <= 100; r++) {
+  if (r % 2 === 0) {
+    sumAllEven += r;
+  } else {
+    sumAllOdd += r;
+  }
+}
+console.log(sumAllEven);
+console.log(sumAllOdd);
