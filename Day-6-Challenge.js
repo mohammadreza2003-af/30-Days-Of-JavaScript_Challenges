@@ -156,3 +156,11 @@ const generateRandomId = function () {
   return result;
 };
 console.log(generateRandomId());
+
+//Challenge--2
+
+function generateRandomHexadecimalNumber() {
+  const randomHex = Math.floor(Math.random() * 16777215).toString(16);
+  return "#" + randomHex;
+}
+console.log(generateRandomHexadecimalNumber());
