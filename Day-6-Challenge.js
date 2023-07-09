@@ -109,6 +109,10 @@ console.log(arrEvenOdd);
 
 //Challenge--13
 
-const randomNum = Math.trunc(Math.random() * 6) + 1;
 const arrRandom = [];
+console.log(arrRandom);
+
+for (let h = 1; h <= 5; h++) {
+  arrRandom.push(Math.trunc(Math.random() * 100) + 1);
+}
 console.log(arrRandom);
