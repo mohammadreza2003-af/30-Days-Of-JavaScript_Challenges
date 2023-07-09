@@ -52,3 +52,9 @@ for (let w = 1; w <= 7; w++) {
 for (let a = 0; a <= 10; a++) {
   console.log(`${a} * ${a} = ${a * a} `);
 }
+
+//Challenge--6
+
+for (let u = 0; u <= 10; u++) {
+  console.log(`${u}^2  = ${u ** 2}`);
+}
