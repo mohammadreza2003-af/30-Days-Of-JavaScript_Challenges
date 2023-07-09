@@ -106,3 +106,9 @@ console.log(sumAllOdd);
 
 const arrEvenOdd = [sumAllEven, sumAllOdd];
 console.log(arrEvenOdd);
+
+//Challenge--13
+
+const randomNum = Math.trunc(Math.random() * 6) + 1;
+const arrRandom = [];
+console.log(arrRandom);
