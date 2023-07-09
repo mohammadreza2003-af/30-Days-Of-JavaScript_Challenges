@@ -168,8 +168,9 @@ console.log(generateRandomHexadecimalNumber());
 //Challenge--3
 
 const resultN = [];
-// const arrN = [];
+
 for (let i = 1; i <= 3; i++) {
   resultN.push(Math.trunc(Math.random() * 240) + 1);
 }
-console.log(`rgba(${resultN})`);
+console.log(`rgb(${resultN})`);
+
