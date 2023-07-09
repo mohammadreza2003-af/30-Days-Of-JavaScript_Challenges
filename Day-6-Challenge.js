@@ -189,3 +189,11 @@ const arrCou = [
   "JAPAN",
   "KENYA",
 ];
+
+//Challenge--5
+
+const arrEm = [];
+for (let i = 0; i <= arrCou.length - 1; i++) {
+  arrEm.push(arrCou[i].length);
+}
+console.log(arrEm);
