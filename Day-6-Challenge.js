@@ -174,3 +174,18 @@ for (let i = 1; i <= 3; i++) {
 }
 console.log(`rgb(${resultN})`);
 
+//Challenge--4
+
+const arrCou = [
+  "ALBANIA",
+  "BOLIVIA",
+  "CANADA",
+  "DENMARK",
+  "ETHIOPIA",
+  "FINLAND",
+  "GERMANY",
+  "HUNGARY",
+  "IRELAND",
+  "JAPAN",
+  "KENYA",
+];
