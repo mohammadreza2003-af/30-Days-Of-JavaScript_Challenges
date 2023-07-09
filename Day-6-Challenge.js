@@ -131,3 +131,13 @@ const randomNumbers = () => {
 };
 
 console.log(randomNumbers());
+
+//Challenge--15
+
+const arrRandomId = [1, 3, 5, 7, 9, 6, "a", "c", "c", "k", "m"];
+let arrE = "";
+for (let f = 0; f <= 5; f++) {
+  arrE += arrRandomId[Math.trunc(Math.random() * arrRandomId.length - 1)];
+  // arrE.push(arrRandomId[Math.trunc(Math.random() * arrRandomId.length - 1)]);
+}
+console.log(arrE);
