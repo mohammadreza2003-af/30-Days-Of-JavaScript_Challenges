@@ -3,7 +3,7 @@
 //Exercise: Level 1
 
 // Challenge--1
-
+/*
 for (let i = 0; i <= 10; i++) {
   console.log(i);
 }
@@ -38,4 +38,11 @@ do {
 
 for (let i = 0; i <= 10; ) {
   console.log(i);
+}
+*/
+//Challenge--4
+let s = "";
+for (let w = 1; w <= 7; w++) {
+  s += "#";
+  console.log(s);
 }
