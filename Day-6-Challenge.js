@@ -71,3 +71,11 @@ for (let r = 0; r <= 100; r++) {
     console.log(r);
   }
 }
+
+//Challenge--9
+
+for (let x = 0; x <= 100; x++) {
+  if (x % 2 === 1) {
+    console.log(x);
+  }
+}
