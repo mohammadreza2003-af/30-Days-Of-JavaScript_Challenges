@@ -106,4 +106,3 @@ console.log(sumAllOdd);
 
 const arrEvenOdd = [sumAllEven, sumAllOdd];
 console.log(arrEvenOdd);
-
