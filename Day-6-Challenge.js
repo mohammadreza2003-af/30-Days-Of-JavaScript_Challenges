@@ -141,3 +141,5 @@ for (let f = 0; f <= 5; f++) {
   // arrE.push(arrRandomId[Math.trunc(Math.random() * arrRandomId.length - 1)]);
 }
 console.log(arrE);
+
+//Exercises: Level 2
