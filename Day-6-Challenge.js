@@ -143,3 +143,15 @@ for (let f = 0; f <= 5; f++) {
 console.log(arrE);
 
 //Exercises: Level 2
+
+//Challenge--1
+
+const generateRandomId = function () {
+  let result = "";
+  for (let i = 0; i <= 10; i++) {
+    result += Math.trunc(Math.random() * 10) + 1;
+  }
+  return result;
+};
+console.log(generateRandomId());
+
