@@ -46,3 +46,9 @@ for (let w = 1; w <= 7; w++) {
   s += "#";
   console.log(s);
 }
+
+//Challenge--5
+
+for (let a = 0; a <= 10; a++) {
+  console.log(`${a} * ${a} = ${a * a} `);
+}
