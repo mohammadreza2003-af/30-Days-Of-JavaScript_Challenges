@@ -79,3 +79,10 @@ for (let x = 0; x <= 100; x++) {
     console.log(x);
   }
 }
+
+//Challenge--10
+let sumAll = 0;
+for (let d = 0; d <= 100; d++) {
+  sumAll += d;
+}
+console.log(sumAll);
