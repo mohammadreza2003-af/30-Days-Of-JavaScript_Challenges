@@ -312,3 +312,13 @@ for (let i = 0; i < fruits.length / 2; i++) {
 
 console.log(fruits);
 
+const fullStack = [
+  ["HTML", "CSS", "JS", "React"],
+  ["Node", "Express", "MongoDB"],
+];
+//Challenge--16
+for (let i = 0; i < fullStack.length; i++) {
+  for (let j = 0; j < fullStack[i].length; j++) {
+    console.log(fullStack[i][j]);
+  }
+}
