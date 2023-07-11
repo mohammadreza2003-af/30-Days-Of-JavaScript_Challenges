@@ -272,3 +272,13 @@ for (let i = 0; i < webTechs.length; i++) {
   arrS.push(inAr);
 }
 console.log(arrS);
+
+//Challenge--13
+
+const mernStack = ["MongoDB", "Express", "React", "Node"];
+
+let arrFN = "";
+for (let i = 0; i < mernStack.length; i++) {
+  arrFN += mernStack[i][0];
+}
+console.log(arrFN);
