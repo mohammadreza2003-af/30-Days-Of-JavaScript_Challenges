@@ -234,3 +234,21 @@ for (let k = 0; k < arrCou.length; k++) {
 }
 console.log(arrB);
 
+//Challenge--10
+
+const webTechs = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
+let arrL = "";
+for (let i = 0; i < webTechs.length; i++) {
+  if (webTechs[i].length >= arrL.length) {
+    arrL = webTechs[i];
+  }
+}
+console.log(arrL);
