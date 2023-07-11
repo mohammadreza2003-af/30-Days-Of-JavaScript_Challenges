@@ -213,3 +213,14 @@ for (let i = 0; i < arrCou.length; i++) {
 }
 console.log(landS);
 console.log(withoutLandS);
+
+//Challenge--8
+
+let conAi = [];
+for (let i = 0; i < arrCou.length; i++) {
+  if (arrCou[i].endsWith("IA")) {
+    conAi.push(arrCou[i]);
+  }
+}
+console.log(conAi);
+
