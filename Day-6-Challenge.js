@@ -299,3 +299,16 @@ const array = [
 for (let item of array) {
   console.log(item);
 }
+
+//Challenge--15
+
+const fruits = ["banana", "orange", "mango", "lemon"];
+
+for (let i = 0; i < fruits.length / 2; i++) {
+  const temp = fruits[i];
+  fruits[i] = fruits[fruits.length - 1 - i];
+  fruits[fruits.length - 1 - i] = temp;
+}
+
+console.log(fruits);
+
