@@ -282,3 +282,20 @@ for (let i = 0; i < mernStack.length; i++) {
   arrFN += mernStack[i][0];
 }
 console.log(arrFN);
+
+//Challenge--14
+
+const array = [
+  "HTML",
+  "CSS",
+  "JS",
+  "React",
+  "Redux",
+  "Node",
+  "Express",
+  "MongoDB",
+];
+
+for (let item of array) {
+  console.log(item);
+}
