@@ -197,3 +197,19 @@ for (let i = 0; i <= arrCou.length - 1; i++) {
   arrEm.push(arrCou[i].length);
 }
 console.log(arrEm);
+
+//Challenge--6
+
+//Challenge--7
+
+let landS = [];
+let withoutLandS = [];
+for (let i = 0; i < arrCou.length; i++) {
+  if (arrCou[i].includes("LAND")) {
+    landS.push(arrCou[i]);
+  } else {
+    withoutLandS.push(arrCou[i]);
+  }
+}
+console.log(landS);
+console.log(withoutLandS);
