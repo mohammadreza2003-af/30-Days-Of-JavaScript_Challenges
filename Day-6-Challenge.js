@@ -224,3 +224,13 @@ for (let i = 0; i < arrCou.length; i++) {
 }
 console.log(conAi);
 
+//Challenge--9
+
+let arrB = "";
+for (let k = 0; k < arrCou.length; k++) {
+  if (arrCou[k].length >= arrB.length) {
+    arrB = arrCou[k];
+  }
+}
+console.log(arrB);
+
