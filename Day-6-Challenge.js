@@ -252,3 +252,13 @@ for (let i = 0; i < webTechs.length; i++) {
   }
 }
 console.log(arrL);
+
+//Challenge--11
+
+let lef = [];
+for (let i = 0; i < arrCou.length; i++) {
+  if (arrCou[i].length === 5) {
+    lef.push(arrCou[i]);
+  }
+}
+console.log(lef);
