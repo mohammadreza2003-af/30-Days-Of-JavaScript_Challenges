@@ -262,3 +262,13 @@ for (let i = 0; i < arrCou.length; i++) {
   }
 }
 console.log(lef);
+
+//Challenge--12
+
+const arrS = [];
+for (let i = 0; i < webTechs.length; i++) {
+  const tech = webTechs[i];
+  const inAr = [tech, tech.length];
+  arrS.push(inAr);
+}
+console.log(arrS);
