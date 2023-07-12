@@ -76,3 +76,11 @@ const volcity = function (distance, time) {
   return distance / time;
 };
 console.log(volcity(100, 2));
+
+//Challenge--11
+
+const convertCelsiusToFahrenheit = function (celsius) {
+  const formula = `${celsius * (9 / 5) + 32}`;
+  return formula;
+};
+console.log(convertCelsiusToFahrenheit(100));
