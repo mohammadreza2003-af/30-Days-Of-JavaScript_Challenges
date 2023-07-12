@@ -356,3 +356,15 @@ for (let i = 0; i < webTechs.length; i++) {
   sortedWebTech.push(webTechs[i]);
 }
 console.log(sortedWebTech.sort());
+
+//Challenge--4
+
+const arrCLand = [];
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].includes("land")) {
+    arrCLand.push(countries[i]);
+  }
+}
+console.log(arrCLand);
+
+
