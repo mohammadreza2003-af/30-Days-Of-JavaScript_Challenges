@@ -170,6 +170,5 @@ function solveQuadEquation(a, b, c) {
     return [];
   }
 }
-
 const result1 = solveQuadEquation(1, -3, 2);
 console.log(result1);
