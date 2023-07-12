@@ -119,3 +119,16 @@ const checkSeason = function (month) {
 };
 
 checkSeason(9);
+
+//Challenge--14
+
+const findMax = (...args) => {
+  let arrFindMax = 0;
+  for (let i = 0; i < args.length; i++) {
+    // arrFindMax.push(Math.max(args[i]));
+    arrFindMax = Math.max(args[i]);
+  }
+  return arrFindMax;
+};
+
+console.log(findMax(10, 15, 20));
