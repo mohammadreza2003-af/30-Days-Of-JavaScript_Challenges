@@ -44,3 +44,10 @@ const volumeOfRectPrism = (length, width, height) => {
   return volume;
 };
 console.log(volumeOfRectPrism(2, 2, 2));
+
+//Challenge--7
+
+const areaOfCircle = function (radiu) {
+  return 3.14 * radiu * radiu;
+};
+console.log(areaOfCircle(3));
