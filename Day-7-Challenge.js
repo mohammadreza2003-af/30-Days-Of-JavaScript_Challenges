@@ -101,3 +101,21 @@ const clacBmiF = function (weight, height) {
 };
 
 clacBmiF(50, 1.7);
+
+//Challenge--13
+
+const checkSeason = function (month) {
+  if (month <= 3 && month >= 1) {
+    console.log("Spring");
+  } else if (month <= 6 && month > 3) {
+    console.log("Summer");
+  }
+  if (month <= 9 && month > 6) {
+    console.log("Autumn");
+  }
+  if (month <= 12 && month > 9) {
+    console.log("Winter");
+  }
+};
+
+checkSeason(9);
