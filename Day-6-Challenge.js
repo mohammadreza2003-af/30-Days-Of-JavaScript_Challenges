@@ -340,8 +340,13 @@ const countries = [
   "Japan",
   "Kenya",
 ];
+
+//Challenge--2
+
 let sortedCountries = [];
 for (let i = 0; i < countries.length; i++) {
   sortedCountries.push(countries[i]);
 }
 console.log(sortedCountries.sort());
+
+
