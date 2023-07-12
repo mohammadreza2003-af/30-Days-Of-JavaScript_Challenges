@@ -349,4 +349,10 @@ for (let i = 0; i < countries.length; i++) {
 }
 console.log(sortedCountries.sort());
 
+//Challenge--3
 
+let sortedWebTech = [];
+for (let i = 0; i < webTechs.length; i++) {
+  sortedWebTech.push(webTechs[i]);
+}
+console.log(sortedWebTech.sort());
