@@ -367,4 +367,10 @@ for (let i = 0; i < countries.length; i++) {
 }
 console.log(arrCLand);
 
+//Challenge--5
 
+let hightest = "";
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length >= hightest.length) hightest = countries[i];
+}
+console.log(hightest);
