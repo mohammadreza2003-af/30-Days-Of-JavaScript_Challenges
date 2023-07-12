@@ -396,3 +396,13 @@ for (let i = 0; i < countries.length; i++) {
   }
 }
 console.log(twoC);
+
+//Challenge--8
+
+const arrRev = [];
+for (let i = countries.length - 1; i >= 0; i--) {
+  arrRev.push(countries[i].toUpperCase());
+}
+console.log(arrRev);
+
+
