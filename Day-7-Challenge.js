@@ -132,3 +132,24 @@ const findMax = (...args) => {
 };
 
 console.log(findMax(10, 15, 20));
+
+//Exercises: Level 2
+
+//Challenge--1
+
+const solveLinEquation = function (a, b, c) {
+  if (a === 0 && b === 0) {
+    return "Invalid equation";
+  } else if (a === 0) {
+    const y = -c / b;
+    return "Y : " + y;
+  } else if (b === 0) {
+    const x = -c / a;
+    return "X : " + x;
+  } else {
+    const x = -c / a;
+    const y = (-a / b) * x;
+    return "x = " + x + ", y = " + y;
+  }
+};
+console.log(solveLinEquation(0, 1, 2));
