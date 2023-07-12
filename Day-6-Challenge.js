@@ -385,3 +385,14 @@ for (let i = 0; i < countries.length; i++) {
   }
 }
 console.log(fiveC);
+
+//Challenge--7
+
+const twoC = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length >= 2) {
+    twoC.unshift(countries[i]);
+  }
+}
+console.log(twoC);
