@@ -84,3 +84,20 @@ const convertCelsiusToFahrenheit = function (celsius) {
   return formula;
 };
 console.log(convertCelsiusToFahrenheit(100));
+
+//Challenge--12
+
+const clacBmiF = function (weight, height) {
+  const clacBmi = weight / height ** 2;
+  if (clacBmi <= 18.5) {
+    console.log("Underweight : " + clacBmi);
+  } else if (clacBmi >= 18.5 && clacBmi <= 24.9) {
+    console.log("Normal weight : " + clacBmi);
+  } else if (clacBmi >= 25 && clacBmi <= 29.9) {
+    console.log("Overweight : " + clacBmi);
+  } else {
+    console.log("Obese : " + clacBmi);
+  }
+};
+
+clacBmiF(50, 1.7);
