@@ -36,3 +36,11 @@ function perimeterOfRectangle(length, width) {
   return perimeter;
 }
 console.log(perimeterOfRectangle(2, 3));
+
+//Challenge--6
+
+const volumeOfRectPrism = (length, width, height) => {
+  const volume = length * width * height;
+  return volume;
+};
+console.log(volumeOfRectPrism(2, 2, 2));
