@@ -322,3 +322,26 @@ for (let i = 0; i < fullStack.length; i++) {
     console.log(fullStack[i][j]);
   }
 }
+
+//Exercises: Level 3
+
+//Challenge--1
+
+const countries = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+let sortedCountries = [];
+for (let i = 0; i < countries.length; i++) {
+  sortedCountries.push(countries[i]);
+}
+console.log(sortedCountries.sort());
