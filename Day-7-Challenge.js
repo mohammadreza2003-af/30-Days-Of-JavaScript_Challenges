@@ -51,3 +51,12 @@ const areaOfCircle = function (radiu) {
   return 3.14 * radiu * radiu;
 };
 console.log(areaOfCircle(3));
+
+//Challenge--8
+
+const circumOfCircle = function (radiu) {
+  const circumference = 2 * 3.14 * radiu;
+  return circumference;
+};
+
+console.log(circumOfCircle(2));
