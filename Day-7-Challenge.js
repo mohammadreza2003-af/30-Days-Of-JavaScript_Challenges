@@ -60,3 +60,19 @@ const circumOfCircle = function (radiu) {
 };
 
 console.log(circumOfCircle(2));
+
+//Challenge--9
+
+const substance = function (mass, volume) {
+  const density = mass / volume;
+  return density;
+};
+
+console.log(substance(10, 2));
+
+//Challenge--10
+
+const volcity = function (distance, time) {
+  return distance / time;
+};
+console.log(volcity(100, 2));
