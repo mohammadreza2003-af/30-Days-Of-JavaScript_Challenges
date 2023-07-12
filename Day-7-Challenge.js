@@ -153,3 +153,23 @@ const solveLinEquation = function (a, b, c) {
   }
 };
 console.log(solveLinEquation(0, 1, 2));
+
+//Challenge--2
+
+function solveQuadEquation(a, b, c) {
+  const discriminant = b * b - 4 * a * c;
+
+  if (discriminant > 0) {
+    const x1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+    const x2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+    return [x1, x2];
+  } else if (discriminant === 0) {
+    const x = -b / (2 * a);
+    return [x];
+  } else {
+    return [];
+  }
+}
+
+const result1 = solveQuadEquation(1, -3, 2);
+console.log(result1);
