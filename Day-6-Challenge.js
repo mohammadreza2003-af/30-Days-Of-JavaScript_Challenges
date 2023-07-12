@@ -374,3 +374,14 @@ for (let i = 0; i < countries.length; i++) {
   if (countries[i].length >= hightest.length) hightest = countries[i];
 }
 console.log(hightest);
+
+//Challenge--6
+
+const fiveC = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length === 5) {
+    fiveC.unshift(countries[i]);
+  }
+}
+console.log(fiveC);
