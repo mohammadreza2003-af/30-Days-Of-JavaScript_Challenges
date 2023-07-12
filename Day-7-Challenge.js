@@ -28,3 +28,11 @@ const areaReg = function (length, width) {
   return area;
 };
 console.log(areaReg(2, 2));
+
+//Challenge--5
+
+function perimeterOfRectangle(length, width) {
+  const perimeter = 2 * (length + width);
+  return perimeter;
+}
+console.log(perimeterOfRectangle(2, 3));
