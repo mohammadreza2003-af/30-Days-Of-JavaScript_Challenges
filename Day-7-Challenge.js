@@ -213,3 +213,9 @@ const reverseArray = (...args) => {
 };
 console.log(reverseArray(1, 2, 3, 4));
 
+//Challenge--7
+
+const capitalizeArray = function (text) {
+  return text.toUpperCase();
+};
+console.log(capitalizeArray("ali"));
