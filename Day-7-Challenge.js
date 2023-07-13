@@ -205,3 +205,11 @@ const swapValues = function (x, y) {
   return newArrXY;
 };
 console.log(swapValues(2, 3));
+
+//Challenge--6
+
+const reverseArray = (...args) => {
+  return args.reverse();
+};
+console.log(reverseArray(1, 2, 3, 4));
+
