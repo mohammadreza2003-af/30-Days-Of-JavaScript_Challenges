@@ -172,3 +172,13 @@ function solveQuadEquation(a, b, c) {
 }
 const result1 = solveQuadEquation(1, -3, 2);
 console.log(result1);
+
+//Challenge--3
+
+const printArray = (...args) => {
+  for (const print of args) {
+    console.log(print);
+  }
+};
+printArray("ali", "Reza");
+
