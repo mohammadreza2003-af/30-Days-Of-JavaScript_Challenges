@@ -182,3 +182,15 @@ const printArray = (...args) => {
 };
 printArray("ali", "Reza");
 
+//Challenge--4
+
+const showDateTime = function () {
+  const date = new Date();
+  console.log(date);
+  // console.log(date.getDate());
+  // console.log(date.getFullYear());
+  // console.log(date.getMonth());
+  // console.log(date.getDay());
+};
+showDateTime();
+
