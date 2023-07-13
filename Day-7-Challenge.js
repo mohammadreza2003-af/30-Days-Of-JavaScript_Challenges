@@ -219,3 +219,13 @@ const capitalizeArray = function (text) {
   return text.toUpperCase();
 };
 console.log(capitalizeArray("ali"));
+
+//Challenge--8
+
+// alert("Sum Two Number");
+// const enterN1 = Number(prompt("Please Enter Number 1"));
+// const enterN2 = Number(prompt("Please Enter Number 2"));
+const addItem = function (num1, num2) {
+  return num1 + num2;
+};
+console.log(addItem(enterN1, enterN2));
