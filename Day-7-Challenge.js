@@ -240,3 +240,16 @@ const removeItem = function (index, arr) {
   return arr1.concat(arr2);
 };
 console.log(removeItem(2, arr));
+
+//Challenge--10
+
+const sumOfNumbers = (...args) => {
+  let sum = 0;
+  for (const sumAll of args) {
+    sum += sumAll;
+  }
+  return sum;
+};
+
+console.log(sumOfNumbers(1, 2, 3));
+
