@@ -230,3 +230,13 @@ const addItem = function (num1, num2) {
 };
 console.log(addItem(10, 10));
 
+//Challenge--9
+
+const arr = ["Ali", "Reza", "Mohmammad", "Rahman", "Mahdi"];
+const removeItem = function (index, arr) {
+  const arr1 = arr.slice(0, index);
+  const arr2 = arr.slice(index + 1, arr.length);
+
+  return arr1.concat(arr2);
+};
+console.log(removeItem(2, arr));
