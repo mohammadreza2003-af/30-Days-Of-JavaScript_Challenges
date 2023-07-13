@@ -194,3 +194,14 @@ const showDateTime = function () {
 };
 showDateTime();
 
+//Challenge--5
+
+const swapValues = function (x, y) {
+  const arrXY = [x, y];
+  const newArrXY = [];
+  for (let i = arrXY.length - 1; i >= 0; i--) {
+    newArrXY.push(arrXY[i]);
+  }
+  return newArrXY;
+};
+console.log(swapValues(2, 3));
