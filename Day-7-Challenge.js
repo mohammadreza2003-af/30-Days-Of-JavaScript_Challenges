@@ -280,3 +280,22 @@ const sumOfEven = (...args) => {
 };
 
 console.log(sumOfEven(1, 2, 3, 4, 6));
+
+//Challenge--13
+
+function evensAndOdds(num) {
+  let even = [];
+  let odd = [];
+  for (let i = 0; i <= num; i++) {
+    if (i % 2 == 0) {
+      even.push(i);
+    }
+    if (i % 2 != 0) {
+      odd.push(i);
+    }
+  }
+  console.log(
+    "the even number is " + even.length + " \nthe odd number is " + odd.length
+  );
+}
+evensAndOdds(101);
