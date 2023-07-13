@@ -228,4 +228,5 @@ console.log(capitalizeArray("ali"));
 const addItem = function (num1, num2) {
   return num1 + num2;
 };
-console.log(addItem(enterN1, enterN2));
+console.log(addItem(10, 10));
+
