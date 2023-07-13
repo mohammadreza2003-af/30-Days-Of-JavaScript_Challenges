@@ -253,3 +253,16 @@ const sumOfNumbers = (...args) => {
 
 console.log(sumOfNumbers(1, 2, 3));
 
+//Challenge--11
+
+const sumOfOdds = (...args) => {
+  let sum = 0;
+  for (let i = 0; i < args.length; i++) {
+    if (args[i] % 2 === 0) {
+      sum += args[i];
+    }
+  }
+  return sum;
+};
+
+console.log(sumOfOdds(1, 2, 3, 4));
