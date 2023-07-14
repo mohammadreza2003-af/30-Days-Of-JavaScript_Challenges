@@ -387,3 +387,6 @@ const userIdGenerator = function () {
   return storeid;
 };
 console.log(userIdGenerator());
+
+//Exercises: Level 3
+
