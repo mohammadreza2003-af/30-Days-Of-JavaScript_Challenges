@@ -373,3 +373,17 @@ const randomHexaNumberGenerator = function () {
   return "#" + storehex;
 };
 console.log(randomHexaNumberGenerator());
+
+//Challenge--17
+
+const userIdGenerator = function () {
+  let storeid = "";
+  let charAndDi =
+    "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  for (let i = 0; i < 6; i++) {
+    const randomNum = Math.trunc(Math.random() * charAndDi.length);
+    storeid += charAndDi.charAt(randomNum);
+  }
+  return storeid;
+};
+console.log(userIdGenerator());
