@@ -467,3 +467,26 @@ const arrayOfRgbColors = function (length) {
 };
 console.log(arrayOfRgbColors(3));
 
+//Challenge--4
+
+const generateColors = function (select, length) {
+  if (select === "hexa") {
+    const characters = "0123456789ABCDEF";
+    let color = "#";
+    for (let i = 0; i < length; i++) {
+      const randomNumHexRgb = Math.trunc(Math.random() * characters.length);
+      color += characters.charAt(randomNumHexRgb);
+    }
+    return color;
+  } else if (select === "rgb") {
+    let color = "";
+    for (let i = 0; i < 3; i++) {
+      const randomNum = Math.trunc(Math.random() * 255);
+      color += randomNum + ",";
+    }
+    color = color.slice(0, -1);
+    return "rbg" + "(" + color + ")";
+  }
+};
+console.log(generateColors("hexa", 3));
+console.log(generateColors("rgb", 3));
