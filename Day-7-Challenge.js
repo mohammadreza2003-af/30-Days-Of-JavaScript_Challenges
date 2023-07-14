@@ -299,3 +299,15 @@ function evensAndOdds(num) {
   );
 }
 evensAndOdds(101);
+
+//Challenge--14
+
+const sumarg = (...args) => {
+  let empSum = 0;
+  for (let i = 0; i < args.length; i++) {
+    empSum += args[i];
+  }
+  return empSum;
+};
+console.log(sumarg(1, 2, 3));
+
