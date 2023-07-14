@@ -444,3 +444,26 @@ const arrayOfHexaColors = function (length) {
 };
 
 console.log(arrayOfHexaColors(4));
+
+//Challenge--3
+
+const generateRgbColor = function () {
+  let color = "";
+  for (let i = 0; i < 3; i++) {
+    const randomNum = Math.trunc(Math.random() * 255);
+    color += randomNum + ",";
+  }
+  color = color.slice(0, -1);
+  return "(" + color + ")";
+};
+console.log(generateRgbColor());
+const arrayOfRgbColors = function (length) {
+  const colors = [];
+  for (let i = 0; i < length; i++) {
+    const color = generateRgbColor();
+    colors.push(color);
+  }
+  return colors;
+};
+console.log(arrayOfRgbColors(3));
+
