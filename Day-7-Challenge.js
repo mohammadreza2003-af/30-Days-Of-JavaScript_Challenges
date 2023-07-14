@@ -421,3 +421,26 @@ const rgbColorGenerator = function () {
   return "rgb" + "(" + rgba + ")";
 };
 console.log(rgbColorGenerator());
+
+//Challenge--2
+
+const generateHexaColor = function () {
+  const characters = "0123456789ABCDEF";
+  let color = "#";
+  for (let i = 0; i < 6; i++) {
+    const randomNum = Math.trunc(Math.random() * characters.length);
+    color += characters.charAt(randomNum);
+  }
+  return color;
+};
+
+const arrayOfHexaColors = function (length) {
+  const colors = [];
+  for (let i = 0; i < length; i++) {
+    const color = generateHexaColor();
+    colors.push(color);
+  }
+  return colors;
+};
+
+console.log(arrayOfHexaColors(4));
