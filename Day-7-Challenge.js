@@ -494,5 +494,3 @@ const generateColors = function (select, length) {
 };
 console.log(generateColors("hexa", 10));
 console.log(generateColors("rgb", 2));
-
-//Challenge--4
