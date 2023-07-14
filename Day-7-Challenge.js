@@ -360,3 +360,16 @@ function generateRandomMacAddress() {
 
 let randomMac = generateRandomMacAddress();
 console.log(randomMac);
+
+//Challenge--17
+
+const randomHexaNumberGenerator = function () {
+  let storehex = "";
+  let hexDigits = "0123456789ABCDEF";
+  for (let i = 0; i < 6; i++) {
+    const randomHex = Math.trunc(Math.random() * hexDigits.length);
+    storehex += hexDigits.charAt(randomHex);
+  }
+  return "#" + storehex;
+};
+console.log(randomHexaNumberGenerator());
