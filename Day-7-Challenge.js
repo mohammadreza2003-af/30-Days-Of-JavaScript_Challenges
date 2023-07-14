@@ -409,3 +409,15 @@ const userIdGeneratedByUser = function () {
   return userIds;
 };
 console.log(userIdGeneratedByUser());
+
+//Challenge--2
+
+const rgbColorGenerator = function () {
+  const rgba = [];
+  for (let i = 0; i < 3; i++) {
+    const randomNum = Math.trunc(Math.random() * 255);
+    rgba.push(randomNum);
+  }
+  return "rgb" + "(" + rgba + ")";
+};
+console.log(rgbColorGenerator());
