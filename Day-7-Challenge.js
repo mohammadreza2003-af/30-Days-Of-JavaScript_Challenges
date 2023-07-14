@@ -479,14 +479,20 @@ const generateColors = function (select, length) {
     }
     return color;
   } else if (select === "rgb") {
-    let color = "";
-    for (let i = 0; i < 3; i++) {
-      const randomNum = Math.trunc(Math.random() * 255);
-      color += randomNum + ",";
+    let sss = [];
+    for (let i = 0; i < length; i++) {
+      let color = "";
+      for (let i = 0; i < 3; i++) {
+        const randomNum = Math.trunc(Math.random() * 255);
+        color += randomNum + ",";
+      }
+      color = "rgb" + "(" + color.slice(0, -1) + ") ";
+      sss += color;
     }
-    color = color.slice(0, -1);
-    return "rbg" + "(" + color + ")";
+    return sss;
   }
 };
-console.log(generateColors("hexa", 3));
-console.log(generateColors("rgb", 3));
+console.log(generateColors("hexa", 10));
+console.log(generateColors("rgb", 2));
+
+//Challenge--4
