@@ -311,3 +311,15 @@ const sumarg = (...args) => {
 };
 console.log(sumarg(1, 2, 3));
 
+//Challenge--15
+
+const randomUserIp = function () {
+  let ip = "";
+  for (let i = 0; i < 4; i++) {
+    let segment = Math.trunc(Math.random() * 256) + 1;
+    ip += segment + ".";
+  }
+  ip = ip.slice(0, -1);
+  return ip;
+};
+console.log(randomUserIp());
