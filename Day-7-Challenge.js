@@ -390,3 +390,22 @@ console.log(userIdGenerator());
 
 //Exercises: Level 3
 
+//Challenge--1
+
+const userIdGeneratedByUser = function () {
+  const numChars = parseInt(prompt("Enter the number of characters:"));
+  const numIds = parseInt(prompt("Enter the number of IDs to generate:"));
+  const userIds = [];
+  let charAndDi =
+    "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  for (let i = 0; i < numIds; i++) {
+    let storeid = "";
+    for (let i = 0; i < numChars; i++) {
+      const randomNum = Math.trunc(Math.random() * charAndDi.length);
+      storeid += charAndDi.charAt(randomNum);
+    }
+    userIds.push(storeid);
+  }
+  return userIds;
+};
+console.log(userIdGeneratedByUser());
