@@ -323,3 +323,40 @@ const randomUserIp = function () {
   return ip;
 };
 console.log(randomUserIp());
+
+//Challenge--16
+
+const randomMacAddress = function () {
+  let macAd = "";
+  for (let i = 0; i < 6; i++) {
+    let random = Math.trunc(Math.random() * 256).toString(16);
+    macAd += random.padStart(2, "0") + ":";
+  }
+  macAd = macAd.slice(0, -1);
+  return macAd;
+};
+console.log(randomMacAddress());
+
+//OR--||
+
+function generateRandomMacAddress() {
+  let macAddress = "";
+  let hexDigits = "0123456789ABCDEF";
+
+  for (let i = 0; i < 6; i++) {
+    let randomHex = "";
+    for (let j = 0; j < 2; j++) {
+      randomHex += hexDigits.charAt(
+        Math.floor(Math.random() * hexDigits.length)
+      );
+    }
+
+    macAddress += randomHex + ":";
+  }
+  macAddress = macAddress.slice(0, -1);
+
+  return macAddress;
+}
+
+let randomMac = generateRandomMacAddress();
+console.log(randomMac);
