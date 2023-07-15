@@ -16,4 +16,7 @@ dog.name = "Alex";
 dog.color = "Black";
 dog.brak = "normal";
 
+//Challenge--4
 
+const value = Object.values(dog);
+console.log(value);
