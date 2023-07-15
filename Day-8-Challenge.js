@@ -20,3 +20,12 @@ dog.brak = "normal";
 
 const value = Object.values(dog);
 console.log(value);
+
+//Challenge--5
+
+dog.getDogInfo = function () {
+  const breed = "Fox";
+  return `Name : ${this.name} color : ${this.color} brak : ${this.brak}`;
+};
+
+console.log(dog.getDogInfo());
