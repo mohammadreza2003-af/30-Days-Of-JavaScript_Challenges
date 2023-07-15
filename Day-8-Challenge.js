@@ -6,3 +6,6 @@
 
 const dog = {};
 
+//Challenge--2
+
+console.log(dog);
