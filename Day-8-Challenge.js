@@ -29,3 +29,6 @@ dog.getDogInfo = function () {
 };
 
 console.log(dog.getDogInfo());
+
+//Exercises: Level 2
+
