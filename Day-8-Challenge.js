@@ -133,3 +133,20 @@ for (const user in users) {
 }
 console.log("Logged-in Users Count:", loggedInCount);
 console.log("Users with Points >= 50 Count:", greaterThan50PointsCount);
+
+//Challenge--3
+
+const mernStackDev = [];
+
+for (const user in users) {
+  const skill = users[user].skills;
+  if (
+    skill.includes("MongoDB") &&
+    skill.includes("Express") &&
+    skill.includes("React") &&
+    skill.includes("Node")
+  ) {
+    mernStackDev.push(user);
+  }
+}
+console.log(mernStackDev);
