@@ -382,7 +382,7 @@ console.log(
 
 //Challenge--3
 
-//A : 
+//A :
 
 function rateProduct(productId, userId, rating) {
   const product = products.find((product) => product._id === productId);
@@ -406,3 +406,28 @@ function rateProduct(productId, userId, rating) {
 rateProduct("eedfcf", "abc123", 4.0);
 rateProduct("aegfal", "fg12cy", 4.8);
 rateProduct("xyz123", "fg12cy", 3.5);
+
+//B :
+
+function averageRating(productId) {
+  const product = products.find((product) => product._id === productId);
+
+  if (product && product.ratings.length > 0) {
+    const totalRatings = product.ratings.reduce(
+      (total, ratingObj) => total + ratingObj.rate,
+      0
+    );
+    const avgRating = totalRatings / product.ratings.length;
+    return `Average rating for product ${product.name}: ${avgRating.toFixed(
+      2
+    )}`;
+  } else if (product && product.ratings.length === 0) {
+    return `Product ${product.name} has no ratings yet.`;
+  } else {
+    return `Product with ID ${productId} not found.`;
+  }
+}
+
+console.log(averageRating("eedfcf"));
+console.log(averageRating("aegfal"));
+console.log(averageRating("xyz123"));
