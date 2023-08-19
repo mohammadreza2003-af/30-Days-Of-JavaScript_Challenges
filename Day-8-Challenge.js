@@ -171,3 +171,29 @@ console.log(allKeyUsers);
 
 const allValueUsers = Object.values(users);
 console.log(allValueUsers);
+
+//Challenge--7
+
+const countries = [
+  {
+    name: "United States",
+    capital: "Washington, D.C.",
+    population: 331002651,
+    languages: ["English"],
+  },
+  {
+    name: "United Kingdom",
+    capital: "London",
+    population: 67886011,
+    languages: ["English"],
+  },
+  // Add more countries here...
+];
+
+for (const country of countries) {
+  console.log("Country:", country.name);
+  console.log("Capital:", country.capital);
+  console.log("Population:", country.population);
+  console.log("Languages:", country.languages.join(", "));
+  console.log("-------------------------------");
+}
