@@ -166,3 +166,8 @@ console.log(users);
 
 const allKeyUsers = Object.keys(users);
 console.log(allKeyUsers);
+
+//Challenge--6
+
+const allValueUsers = Object.values(users);
+console.log(allValueUsers);
