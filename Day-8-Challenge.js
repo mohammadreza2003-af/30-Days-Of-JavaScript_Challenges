@@ -150,3 +150,15 @@ for (const user in users) {
   }
 }
 console.log(mernStackDev);
+
+//Challenge--4
+
+users.mohammadreza = {
+  email: "paul@paul.com",
+  skills: ["HTML", "CSS", "JavaScript", "MongoDB", "Express", "React", "Node"],
+  age: 20,
+  isLoggedIn: false,
+  points: 40,
+};
+console.log(users);
+
