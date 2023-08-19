@@ -350,3 +350,32 @@ console.log(
     isLoggedIn: false,
   })
 );
+
+function signIn(oldUser) {
+  if (checkIn(oldUser.username, oldUser.email, oldUser.password)) {
+    return `Congratulations, you have successfully logged into your account`;
+  } else {
+    return `Your login information is incorrect`;
+  }
+}
+
+console.log(
+  signIn({
+    _id: "ghderc",
+    username: "Thomas",
+    email: "thomas@thomas.com",
+    password: "123333",
+    createdAt: "08/01/2020 10:00 AM",
+    isLoggedIn: false,
+  })
+);
+console.log(
+  signIn({
+    _id: "ghderc",
+    username: "Thomas",
+    email: "thomas@thomas.com",
+    password: "1233333",
+    createdAt: "08/01/2020 10:00 AM",
+    isLoggedIn: false,
+  })
+);
