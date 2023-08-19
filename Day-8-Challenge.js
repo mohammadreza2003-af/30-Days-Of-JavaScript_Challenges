@@ -379,3 +379,30 @@ console.log(
     isLoggedIn: false,
   })
 );
+
+//Challenge--3
+
+//A : 
+
+function rateProduct(productId, userId, rating) {
+  const product = products.find((product) => product._id === productId);
+
+  if (product) {
+    const existingRating = product.ratings.find(
+      (ratingObj) => ratingObj.userId === userId
+    );
+    if (existingRating) {
+      existingRating.rate = rating;
+      console.log(`Updated rating for product ${product.name}: ${rating}`);
+    } else {
+      product.ratings.push({ userId, rate: rating });
+      console.log(`Rated product ${product.name} with ${rating} stars.`);
+    }
+  } else {
+    console.log(`Product with ID ${productId} not found.`);
+  }
+}
+
+rateProduct("eedfcf", "abc123", 4.0);
+rateProduct("aegfal", "fg12cy", 4.8);
+rateProduct("xyz123", "fg12cy", 3.5);
