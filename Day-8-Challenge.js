@@ -431,3 +431,28 @@ function averageRating(productId) {
 console.log(averageRating("eedfcf"));
 console.log(averageRating("aegfal"));
 console.log(averageRating("xyz123"));
+
+//Challenge--4
+
+function likeProduct(productId, userId) {
+  const product = products.find((product) => product._id === productId);
+
+  if (product) {
+    const userIndex = product.likes.indexOf(userId);
+
+    if (userIndex !== -1) {
+      product.likes.splice(userIndex, 1);
+      console.log(`Removed like from product ${product.name}.`);
+    } else {
+      product.likes.push(userId);
+      console.log(`Liked product ${product.name}.`);
+    }
+  } else {
+    console.log(`Product with ID ${productId} not found.`);
+  }
+}
+
+// Example usage
+likeProduct("eedfcf", "abc123"); // Liked product 'mobile phone'.
+likeProduct("aegfal", "fg12cy"); // Removed like from product 'Laptop'.
+likeProduct("xyz123", "fg12cy"); // Product with ID 'xyz123' not found.
