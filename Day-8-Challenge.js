@@ -197,3 +197,48 @@ for (const country of countries) {
   console.log("Languages:", country.languages.join(", "));
   console.log("-------------------------------");
 }
+
+//Exercises: Level 3
+
+//Challenge--1
+
+const personAccount = {
+  firstName: "John",
+  lastName: "Doe",
+  incomes: [],
+  expenses: [],
+
+  totalIncome() {
+    return this.incomes.reduce((total, income) => total + income.amount, 0);
+  },
+
+  totalExpense() {
+    return this.expenses.reduce((total, expense) => total + expense.amount, 0);
+  },
+
+  accountInfo() {
+    return `Account Information:\nName: ${this.firstName} ${
+      this.lastName
+    }\nTotal Income: ${this.totalIncome()}\nTotal Expense: ${this.totalExpense()}`;
+  },
+
+  addIncome(description, amount) {
+    this.incomes.push({ description, amount });
+  },
+
+  addExpense(description, amount) {
+    this.expenses.push({ description, amount });
+  },
+
+  accountBalance() {
+    const balance = this.totalIncome() - this.totalExpense();
+    return `Account Balance: ${balance}`;
+  },
+};
+
+personAccount.addIncome("Salary", 3000);
+personAccount.addIncome("Freelance", 500);
+personAccount.addExpense("Rent", 1000);
+personAccount.addExpense("Groceries", 200);
+console.log(personAccount.accountInfo());
+console.log(personAccount.accountBalance());
