@@ -81,3 +81,7 @@ console.log(countries.filter((cur) => cur.length >= 6));
 //Challenge--13
 
 console.log(countries.filter((cur) => cur.toUpperCase().startsWith("E")));
+
+//Challenge--14
+
+console.log(products.map((cur) => Number(cur.price)).filter((cur) => cur > 0));
