@@ -66,3 +66,6 @@ countries
   })
   .forEach((cur) => console.log(cur.toUpperCase()));
 
+//Challenge--10
+
+console.log(products.map((cur) => cur.price));
