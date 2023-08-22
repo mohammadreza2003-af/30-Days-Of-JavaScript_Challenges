@@ -18,3 +18,11 @@ console.log(numbers.map((cur, i) => `${i + 1} => ${cur}`));
 console.log(numbers.filter((cur) => cur >= 5));
 console.log(numbers.reduce((acc, cur) => acc + cur, 0));
 
+//Challenge--2
+
+function callBack(acc, cur) {
+  return acc + cur;
+}
+
+console.log(numbers.reduce(callBack));
+
