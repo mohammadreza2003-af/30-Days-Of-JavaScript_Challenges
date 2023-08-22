@@ -33,3 +33,7 @@ countries.forEach((cur, i, arr) => console.log(cur));
 //Challenge--4
 
 names.forEach((cur, i, arr) => console.log(cur));
+
+//Challenge--5
+
+numbers.forEach((cur, i, arr) => console.log(cur));
