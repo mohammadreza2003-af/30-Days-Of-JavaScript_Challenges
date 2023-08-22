@@ -124,3 +124,7 @@ console.log(countries.every((cur) => cur.includes("land")));
 
 console.log(countries.find((cur) => cur.length >= 6));
 
+//Challenge--21
+
+console.log(countries.findIndex((cur) => cur.length >= 6));
+
