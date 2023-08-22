@@ -38,3 +38,10 @@ names.forEach((cur, i, arr) => console.log(cur));
 
 numbers.forEach((cur, i, arr) => console.log(cur));
 
+//Challenge--6
+
+countries
+  .map(function (cur, index, arr) {
+    return cur;
+  })
+  .forEach((cur) => console.log(cur));
