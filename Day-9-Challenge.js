@@ -85,3 +85,10 @@ console.log(countries.filter((cur) => cur.toUpperCase().startsWith("E")));
 //Challenge--14
 
 console.log(products.map((cur) => Number(cur.price)).filter((cur) => cur > 0));
+
+//Challenge--15
+
+const getStringLists = function (arr) {
+  return arr.filter((cur) => cur.length);
+};
+console.log(getStringLists([1, 3, "ali", "ssdf"]));
