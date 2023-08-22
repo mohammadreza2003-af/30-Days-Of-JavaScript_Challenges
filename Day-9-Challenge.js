@@ -115,3 +115,9 @@ console.log(
 //Challenge--18
 
 console.log(names.some((cur) => cur.length > 7));
+
+//Challenge--19
+
+console.log(countries.every((cur) => cur.includes("land")));
+
+
