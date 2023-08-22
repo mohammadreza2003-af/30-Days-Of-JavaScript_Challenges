@@ -92,3 +92,7 @@ const getStringLists = function (arr) {
   return arr.filter((cur) => cur.length);
 };
 console.log(getStringLists([1, 3, "ali", "ssdf"]));
+
+//Challenge--16
+
+console.log(numbers.reduce((acc, cur) => acc + cur, 0));
