@@ -77,3 +77,7 @@ console.log(countries.filter((cur) => cur.toLowerCase().includes("land")));
 //Challenge--12
 
 console.log(countries.filter((cur) => cur.length >= 6));
+
+//Challenge--13
+
+console.log(countries.filter((cur) => cur.toUpperCase().startsWith("E")));
