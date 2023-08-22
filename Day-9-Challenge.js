@@ -128,3 +128,6 @@ console.log(countries.find((cur) => cur.length >= 6));
 
 console.log(countries.findIndex((cur) => cur.length >= 6));
 
+//Challenge--22
+
+console.log(countries.findIndex((cur) => cur.includes("Norway")));
