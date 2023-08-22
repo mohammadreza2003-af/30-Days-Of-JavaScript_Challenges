@@ -73,3 +73,7 @@ console.log(products.map((cur) => cur.price));
 //Challenge--11
 
 console.log(countries.filter((cur) => cur.toLowerCase().includes("land")));
+
+//Challenge--12
+
+console.log(countries.filter((cur) => cur.length >= 6));
