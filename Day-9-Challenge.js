@@ -69,3 +69,7 @@ countries
 //Challenge--10
 
 console.log(products.map((cur) => cur.price));
+
+//Challenge--11
+
+console.log(countries.filter((cur) => cur.toLowerCase().includes("land")));
