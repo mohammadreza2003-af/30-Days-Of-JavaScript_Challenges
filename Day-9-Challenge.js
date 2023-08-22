@@ -111,3 +111,7 @@ console.log(
     countries[countries.indexOf("IceLand")]
   } are north European countries`
 );
+
+//Challenge--18
+
+console.log(names.some((cur) => cur.length > 7));
