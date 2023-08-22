@@ -456,3 +456,4 @@ function likeProduct(productId, userId) {
 likeProduct("eedfcf", "abc123"); // Liked product 'mobile phone'.
 likeProduct("aegfal", "fg12cy"); // Removed like from product 'Laptop'.
 likeProduct("xyz123", "fg12cy"); // Product with ID 'xyz123' not found.
+
