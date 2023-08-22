@@ -50,3 +50,10 @@ countries
 
 console.log(countries.map((cur) => cur.length));
 
+//Challenge--8
+
+numbers
+  .map(function (cur, index, arr) {
+    return cur;
+  })
+  .forEach((cur) => console.log(Math.sqrt(cur)));
