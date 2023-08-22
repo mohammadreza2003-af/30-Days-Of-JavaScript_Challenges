@@ -45,3 +45,8 @@ countries
     return cur;
   })
   .forEach((cur) => console.log(cur));
+
+//Challenge--7
+
+console.log(countries.map((cur) => cur.length));
+
