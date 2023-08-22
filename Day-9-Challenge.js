@@ -57,3 +57,12 @@ numbers
     return cur;
   })
   .forEach((cur) => console.log(Math.sqrt(cur)));
+
+//Challenge--9
+
+countries
+  .map(function (cur, index, arr) {
+    return cur;
+  })
+  .forEach((cur) => console.log(cur.toUpperCase()));
+
