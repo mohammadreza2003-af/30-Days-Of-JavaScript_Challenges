@@ -30,3 +30,6 @@ console.log(numbers.reduce(callBack));
 
 countries.forEach((cur, i, arr) => console.log(cur));
 
+//Challenge--4
+
+names.forEach((cur, i, arr) => console.log(cur));
