@@ -26,3 +26,7 @@ function callBack(acc, cur) {
 
 console.log(numbers.reduce(callBack));
 
+//Challenge--3
+
+countries.forEach((cur, i, arr) => console.log(cur));
+
