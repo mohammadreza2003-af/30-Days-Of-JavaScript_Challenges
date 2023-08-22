@@ -96,3 +96,18 @@ console.log(getStringLists([1, 3, "ali", "ssdf"]));
 //Challenge--16
 
 console.log(numbers.reduce((acc, cur) => acc + cur, 0));
+
+//Challenge--17
+
+const join = countries
+  .map((cur) => cur)
+  .reduce((acc, cur, i) => {
+    return acc.concat(cur);
+  }, [])
+  .join(", ");
+
+console.log(
+  `${join}, and ${
+    countries[countries.indexOf("IceLand")]
+  } are north European countries`
+);
