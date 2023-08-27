@@ -204,7 +204,6 @@ const countries1 = [
   "Iran",
   "Iraq",
   "Ireland",
-  "Israel",
   "Italy",
   "Jamaica",
   "Japan",
@@ -231,7 +230,8 @@ countries1
 
 console.log(initialCounts);
 
-
 //Exercises: Level 3
 
 //Challenge--1
+
+console.log(countries1.sort());
