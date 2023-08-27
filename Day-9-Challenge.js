@@ -136,9 +136,14 @@ console.log(countries.findIndex((cur) => cur.includes("Norway")));
 
 //Challenge--23
 
-
 console.log(countries.findIndex((cur) => cur.includes("Russia")));
 
 //Exercises: Level 2
 
 //Challenge--1
+
+const totalPrice = products
+  .map((cur) => cur.price)
+  .filter((cur) => cur > 0)
+  .reduce((acc, cur) => (acc += cur), 0);
+console.log(totalPrice);
