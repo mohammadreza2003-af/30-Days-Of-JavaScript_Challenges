@@ -162,3 +162,10 @@ console.log(sums);
 
 const country = countries.filter((cur) => cur.toLowerCase().includes("land"));
 console.log(country);
+
+//Challenge--4
+
+for (const [e, s] of products.entries()) {
+  const { product, price } = s;
+  console.log(product, price);
+}
