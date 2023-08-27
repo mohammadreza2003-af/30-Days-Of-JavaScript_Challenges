@@ -136,4 +136,9 @@ console.log(countries.findIndex((cur) => cur.includes("Norway")));
 
 //Challenge--23
 
+
 console.log(countries.findIndex((cur) => cur.includes("Russia")));
+
+//Exercises: Level 2
+
+//Challenge--1
