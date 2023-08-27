@@ -157,3 +157,8 @@ const sums = products.reduce((acc, cur, i) => {
   return acc;
 }, 0);
 console.log(sums);
+
+//Challenge--3
+
+const country = countries.filter((cur) => cur.toLowerCase().includes("land"));
+console.log(country);
