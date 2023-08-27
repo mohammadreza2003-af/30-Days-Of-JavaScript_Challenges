@@ -147,3 +147,13 @@ const totalPrice = products
   .filter((cur) => cur > 0)
   .reduce((acc, cur) => (acc += cur), 0);
 console.log(totalPrice);
+
+//Challenge--2
+
+const sums = products.reduce((acc, cur, i) => {
+  if (cur.price > 0) {
+    acc += cur.price;
+  }
+  return acc;
+}, 0);
+console.log(sums);
