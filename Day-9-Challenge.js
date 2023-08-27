@@ -2,7 +2,15 @@
 
 //Exercises: Level 1 :
 
-const countries = ["Finland", "Sweden", "Denmark", "Norway", "IceLand"];
+const countries = [
+  "Finland",
+  "Fiji",
+  "Sweden",
+  "France",
+  "Denmark",
+  "Norway",
+  "IceLand",
+];
 const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const products = [
@@ -169,3 +177,56 @@ for (const [e, s] of products.entries()) {
   const { product, price } = s;
   console.log(product, price);
 }
+
+//Challenge--5
+
+const countries1 = [
+  "Finland",
+  "Fiji",
+  "France",
+  "Gabon",
+  "Gambia",
+  "Georgia",
+  "Germany",
+  "Ghana",
+  "Greece",
+  "Grenada",
+  "Guatemala",
+  "Guinea",
+  "Guinea-Bissau",
+  "Guyana",
+  "Haiti",
+  "Honduras",
+  "Hungary",
+  "Iceland",
+  "India",
+  "Indonesia",
+  "Iran",
+  "Iraq",
+  "Ireland",
+  "Israel",
+  "Italy",
+  "Jamaica",
+  "Japan",
+  "Jordan",
+  "Kazakhstan",
+  "Kenya",
+  "Kiribati",
+  "Kuwait",
+  "Kyrgyzstan",
+];
+
+const initialCounts = {};
+
+countries1
+  .map((country) => country[0])
+  .filter((initial) => initial !== "-")
+  .forEach((initial) => {
+    if (initial in initialCounts) {
+      initialCounts[initial]++;
+    } else {
+      initialCounts[initial] = 1;
+    }
+  });
+
+console.log(initialCounts);
