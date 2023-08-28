@@ -235,3 +235,4 @@ console.log(initialCounts);
 //Challenge--1
 
 console.log(countries1.sort());
+
